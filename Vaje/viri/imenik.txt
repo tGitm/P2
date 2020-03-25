@@ -1,0 +1,6 @@
+Miha, Novak, Čufarjeva ulica 12, 1000, Ljubljana, 040399393
+Maja, Ferk, Čufarjeva ulica 14, 1000, Ljubljana, 040339393
+Simona, Novak, Čufarjeva ulica 16, 1000, Ljubljana, 040559393
+Tilen, Novak, Seidlova ulica 12, 1000, Ljubljana, 0403667939
+Lada, Pečnik, Stritarjeva 12, 2000, Maribor, 041366939
+Teo, Novak, Bevkoca ulica 12, 3000, Celje, 040397839

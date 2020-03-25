@@ -1,0 +1,32 @@
+static void miska(){
+        JFrame okno = new JFrame("blabalbalb");
+        okno.setSize(500, 250);
+        okno.setLocation(500, 500);
+
+        HashMap<String, Integer> slovarcek = new HashMap<String, Integer>();
+
+        JTextArea jta = new JTextArea();
+        okno.add(jta);
+
+        jta.addMouseMotionListener(new MouseMotionAdapter(){
+           public void mouseMoved(MouseEvent e){
+               String koor = String.format("(%d, %d)", e.getX(), e.getY());
+
+               if (slovarcek.containsKey(koor)){
+                   slovarcek.put(koor, slovarcek.get(koor)+1);
+               } else{
+
+                   slovarcek.put(koor, 1);
+               }
+
+               jta.setText("Koordinata" + koor + " je bila obiskana " + slovarcek.get(koor) + "-krat.");
+
+        }
+
+
+
+            });
+
+        okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        okno.setVisible(true);
+    }

@@ -1,0 +1,16 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package predavanje10;
+
+/**
+ *
+ * @author Tim
+ */
+public class TestAbstraktno {
+    Ocena o = new Ocena();
+    //Abstraktno a = new Abstraktno();    //iz abstraktnih razredov nemoremo delati objektov
+    NeVecAbstraktno na = new NeVecAbstraktno();
+}

@@ -1,0 +1,40 @@
+static void okence(){
+        JFrame okno = new JFrame("balblabl");
+        okno.setSize(500, 300);
+        okno.setLocation(500, 500);
+
+        JPanel jp = new JPanel();
+        jp.setBackground(Color.DARK_GRAY);
+
+        JButton gumb = new JButton();
+        gumb.setText("Obrni");
+
+        JTextField txt1 = new JTextField();
+        txt1.setPreferredSize(new Dimension(60, 20));
+
+        JTextField txt2 = new JTextField();
+        txt2.setPreferredSize(new Dimension(60, 20));
+
+        gumb.addActionListener(
+                new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                        txt2.setText(obrni(txt1.getText()));
+                    }
+                }
+        );
+
+        okno.add(jp);
+        jp.add(txt1);
+        jp.add(gumb);
+        jp.add(txt2);
+
+        okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        okno.setVisible(true); }
+
+        static String obrni(String niz){
+            if (niz.isEmpty()){
+                return niz;
+            }
+            return obrni(niz.substring(1) + niz.charAt(0));
+        }

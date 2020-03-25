@@ -1,0 +1,27 @@
+private static int steviloSpremenjenihBitov(byte b1, byte b2) {
+    int stevilo = 0;
+    for (int i = 0; i < 8; i++) {
+      byte zaporedniBit = (byte) (1 << i);
+      if ((b1 & zaporedniBit) != (b2 & zaporedniBit)) {
+        stevilo++;
+      }
+    }
+    return stevilo;
+  }
+
+  public static void main(String[] args) throws Exception {
+    byte maska = (byte) 0xAB;
+    FileInputStream fis = new FileInputStream(args[0]);
+    FileOutputStream fos = new FileOutputStream(args[1]);
+    int vhod;
+    int stBitov = 0;
+    while ((vhod = fis.read()) != -1) {
+      byte bajt = (byte) (vhod & 0xFF);
+      byte spremenjeniBajt = (byte) (bajt ^ maska);
+      fos.write(spremenjeniBajt);
+      stBitov += steviloSpremenjenihBitov(bajt, spremenjeniBajt);
+    }
+    fis.close();
+    fos.close();
+    System.out.printf("%d\n", stBitov);
+  }

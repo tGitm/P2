@@ -1,0 +1,16 @@
+Merkur:2440
+Merkur je najmanjši in Soncu najbližji planet v Osončju.
+Venera:6052
+Venera je notranji, drugi planet od Sonca v Osončju.
+Zemlja:6378
+Zemlja je eden izmed planetov Osončja ter planet, na katerem se nahajata življenje in človeštvo. 
+Po oddaljenosti od Sonca je tretji, po velikosti pa peti planet Sončevega sistema.
+Mars:3396
+Jupiter:71492
+Saturn:60268
+Saturn je zunanji, šesti planet od Sonca v Osončju. 
+Uranu:25559
+Uran je zunanji, sedmi planet od Sonca v Osončju.
+Neptun:24764
+Pluton:1195
+Vir podatkov - wikipedija

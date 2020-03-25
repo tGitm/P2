@@ -1,0 +1,31 @@
+﻿  static void narisiStolpce(int[] visine) {
+    Color[] barve = new Color[]{Color.red, Color.green, Color.blue};
+
+    int maxVisina = visine[0];
+    for (int i = 1; i < visine.length; i++) {
+      if (visine[i] > maxVisina) {
+        maxVisina = visine[i];
+      }
+    }
+
+    double maxSVisina = 0.95 / maxVisina;
+    double sSirina = 1.0 / (visine.length + 1);
+    double space = sSirina / (visine.length + 1);
+
+    StdDraw.rectangle(0.5, 0.5, 0.5, 0.5);
+
+    int barva = 0;
+    for (int i = 0; i < visine.length; i++) {
+      double visinaStolpca = visine[i] * maxSVisina;
+      StdDraw.setPenColor(barve[barva]);
+      barva = (barva + 1) % 3;
+      StdDraw.filledRectangle((i + 0.5) * sSirina + (i + 1) * space,
+              visinaStolpca / 2, sSirina / 2, visinaStolpca / 2);
+    }
+  }
+
+  public static void main(String[] args) {
+    StdDraw.setScale(0, 1);
+    narisiStolpce(new int[]{10, 5, 8, 4, 12, 7, 4});
+  }
+}

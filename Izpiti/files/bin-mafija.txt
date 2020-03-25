@@ -1,0 +1,31 @@
+static void mafija(String imeDatoteke){
+        FileInputStream fis = null;
+        DataInputStream dis = null;
+
+        try{
+
+            fis = new FileInputStream("files/dobicki");
+            dis = new DataInputStream(fis);
+
+            int maxNakup = 0;
+            int dob = 0;
+
+            while (dis.available() > 0){
+                int branje = dis.readInt();
+                dob += branje;
+
+                if (branje > 0 && branje > maxNakup){
+                    maxNakup = branje;
+                }
+
+                System.out.println("Trenutno stanje: " + dob + ".");
+                System.out.println("Maksimalen nakup: " + maxNakup + ".");
+
+            }
+                dis.close();
+
+        } catch (java.io.IOException e){
+            e.printStackTrace();
+        }
+
+    }

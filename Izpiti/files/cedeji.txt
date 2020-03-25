@@ -1,0 +1,57 @@
+public static void main(String[] args){
+        cedeji("dancingQueen.txt", "Knowing Me");
+
+    }
+
+    static void cedeji(String ime1, String ime2){
+        ArrayList<String> dat1 = new ArrayList<String>();
+        ArrayList<String> dat2 = new ArrayList<String>();
+        Map<String, String> skupno = new HashMap<String,String>();
+
+        try{
+
+            Scanner sc = new Scanner(new File(ime1));
+
+            while (sc.hasNextLine()){
+                String [] razbito = sc.nextLine().split(";");
+                String dolzina = razbito[1].trim();
+                String imeFilma = (razbito[0].substring(2, razbito[0].length()).trim());
+
+                skupno.put(imeFilma, dolzina);
+                dat1.add(dolzina + " " + imeFilma);
+            }
+
+            while (sc.hasNextLine()) {
+                String[] razbito = sc.nextLine().split(";");
+                String dolzina = razbito[1].trim();
+                String imeFilma = (razbito[0].substring(2, razbito[0].length()).trim());
+
+                if (skupno.containsKey(imeFilma)) {
+                    if (!(skupno.get(imeFilma).equals(dolzina))) {
+                        System.out.println(imeFilma);
+
+                    }
+
+                    dat2.add(dolzina + " " + imeFilma);
+
+
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+                System.out.println("File notfound!");
+        }
+
+        Collections.sort(dat1);
+        Collections.sort(dat2);
+
+        for (String a : dat1){
+            System.out.println(a);
+        }
+
+        for (String a : dat2){
+            System.out.println(a);
+        }
+
+
+    }

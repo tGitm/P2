@@ -1,0 +1,7 @@
+Pomnilnik;Silicon Power;23.18;0;4;1600
+Procesor;Intel Core i7 3820;321.39;2011;4;3600
+Pomnilnik;Transcend;29.73;2;2;800
+Procesor;Amd FX-Series FX-8150;260.82;AMD3+;8;3600
+Pomnilnik;Kingstone;26.33;3;4;1333
+Maticna;Asus P8Z68-V;87.07;ATX;2011;4
+Maticna;Gigabyte GA-990XA;116.89;ATX;AMD3+;3

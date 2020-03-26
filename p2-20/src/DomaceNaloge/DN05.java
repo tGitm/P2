@@ -1,4 +1,3 @@
-package DomaceNaloge;
 
 import com.sun.security.jgss.GSSUtil;
 
@@ -9,38 +8,19 @@ import java.util.Scanner;
 
 public class DN05 {
     public static void main(String[] args) throws Exception{
-        System.out.println(Arrays.deepToString(preberiLabirint(args[0])));
-        //testna tabela
-        int [][] labirint = new int[5][5];
-        labirint[0][0] = 1;
-        labirint[0][1] = 1;
-        labirint[0][2] = 1;
-        labirint[0][3] = 1;
-        labirint[0][4] = 1;
+        int [][] labirint = preberiLabirint(args[0]);
+        /*for (int i = 0; i < labirint.length ; i++){
+            for (int j = 0; j < labirint[i].length; j++) {
+                System.out.print(labirint[i][j]);
+            }
+            System.out.println();
+        }*/
 
-        labirint[1][0] = 1;
-        labirint[1][1] = 0;
-        labirint[1][2] = 0;
-        labirint[1][3] = 0;
-        labirint[1][4] = 1;
-
-        labirint[2][0] = 1;
-        labirint[2][1] = 0;
-        labirint[2][2] = 1;
-        labirint[2][3] = 1;
-        labirint[2][4] = 1;
-
-        labirint[3][0] = 1;
-        labirint[3][1] = 0;
-        labirint[3][2] = 1;
-        labirint[3][3] = 0;
-        labirint[3][4] = 1;
-
-        labirint[4][0] = 1;
-        labirint[4][1] = 1;
-        labirint[4][2] = 1;
-        labirint[4][3] = 1;
-        labirint[4][4] = 1;
+        int [] prebranaResitev = preberiResitev(args[1]);
+        for (int i = 0; i < prebranaResitev.length; i++) {
+            System.out.print(prebranaResitev[i]);
+        }
+        System.out.println();
 
         izrisiLabirint(labirint);
     }
@@ -49,17 +29,17 @@ public class DN05 {
             Scanner sc = new Scanner(new File(datoteka));
             int branje;
             String [] labirint = datoteka.split("_");
-            char b = labirint[2].charAt(0);
+            //String [] velikosti = labirint[3].split("\\.");
+            //char b = labirint[2].charAt(0);
             int sirina = Integer.parseInt(labirint[1]) * 2 - 1;
-            int visina = Integer.parseInt(String.valueOf(b)) * 2 - 1;
+            int visina = sirina;
             int [][] st = new int[visina][sirina];
             int i = 0, j = 0;
 
             while (sc.hasNextLine()) {
                 branje = sc.nextInt();
-                System.out.print(branje);
+                //System.out.print(branje);
                 st[i][j] = branje;
-
                 if (j == sirina - 1) {
                     j = 0;
                     i++;
@@ -75,16 +55,44 @@ public class DN05 {
 
     //0-stena, 1-hodnik
     public static void izrisiLabirint(int[][] labirint) {
+        for (int i = 0; i <= labirint.length + 1; i++) {
+            System.out.print("# ");
+        }
+
+        System.out.println();
         for (int i = 0; i < labirint.length; i++) {
+            System.out.print("# ");
             for (int j = 0; j < labirint[i].length; j++) {
-                if (labirint[i][j] == 0) {
+                if (labirint[i][j] == 1) {
+                    System.out.print("  ");
+                } else {
                     System.out.print("# ");
                 }
-                else if (labirint[i][j] == 1) {
-                    System.out.print("  ");
-                }
             }
-            System.out.println();
+            System.out.println("# ");
         }
+
+        for (int i = 0; i <= labirint.length + 1; i++) {
+            if (i == labirint.length) {
+                System.out.print("  ");
+            }
+            else {
+                System.out.print("# ");
+            }
+        }
+    }
+
+    public static int[] preberiResitev(String ime) throws Exception {
+        Scanner sc = new Scanner(new File(ime));
+        String branje = "";
+        int counter = 0;
+        int [] prebrano = new int[100];
+        while (sc.hasNext()) {
+            branje = sc.next();
+            prebrano[counter] = Integer.parseInt(branje);
+
+            counter++;
+        }
+        return prebrano;
     }
 }

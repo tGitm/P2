@@ -40,11 +40,11 @@ public class DN05 {
     public static int[][] preberiLabirint(String datoteka) throws Exception{
             Scanner sc = new Scanner(new File(datoteka));
             int branje;
-            String [] labirint = datoteka.split("_");
+            String [] labirint = datoteka.split("_|\\.");
             //String [] velikosti = labirint[3].split("\\.");
-            //char b = labirint[2].charAt(0);
+            //char b = labirint[2].charAt(0); -> ne dela za dvomestna števila
             int sirina = Integer.parseInt(labirint[1]) * 2 - 1;
-            int visina = sirina;
+            int visina = Integer.parseInt(labirint[2]) * 2 - 1;
             int [][] st = new int[visina][sirina];
             int i = 0, j = 0;
 
@@ -109,6 +109,13 @@ public class DN05 {
     }
 
     public static boolean preveriResitev(int[][] labirint, int[] resitev) {
+        for (int i = 0; i < resitev.length; i++) {
+            for (int j = 0; j < labirint.length; j++) {
+                for (int k = 0; k < labirint[j].length; k++) {
+
+                }
+            }
+    }
         return true;
     }
 }

@@ -1,3 +1,4 @@
+package DomaceNaloge;
 
 import com.sun.security.jgss.GSSUtil;
 
@@ -8,6 +9,7 @@ import java.util.Scanner;
 
 public class DN05 {
     public static void main(String[] args) throws Exception{
+        //izpis tabele 1, 0 labirinta
         int [][] labirint = preberiLabirint(args[0]);
         /*for (int i = 0; i < labirint.length ; i++){
             for (int j = 0; j < labirint[i].length; j++) {
@@ -16,13 +18,23 @@ public class DN05 {
             System.out.println();
         }*/
 
+        //izpis rešitve labitinta
         int [] prebranaResitev = preberiResitev(args[1]);
         for (int i = 0; i < prebranaResitev.length; i++) {
             System.out.print(prebranaResitev[i]);
         }
+
+        System.out.println();
+        izrisiLabirint(labirint);
         System.out.println();
 
-        izrisiLabirint(labirint);
+        //izpis pravilnosti rešitve
+        if (preveriResitev(labirint, prebranaResitev)) {
+            System.out.println("Pravilna rešitev!");
+        }
+        else {
+            System.out.println("Nepravilna rešitev!");
+        }
     }
 
     public static int[][] preberiLabirint(String datoteka) throws Exception{
@@ -94,5 +106,9 @@ public class DN05 {
             counter++;
         }
         return prebrano;
+    }
+
+    public static boolean preveriResitev(int[][] labirint, int[] resitev) {
+        return true;
     }
 }

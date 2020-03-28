@@ -1,0 +1,30 @@
+public static void izrisiResitev(int[][] labirint, int[] resitev){
+        int x = 0;
+        int y = 0;
+        for (int i = 0; i < resitev.length; i++) {
+            int navodilo = resitev[i];
+            labirint[y][x] = 9;
+            switch (navodilo) {
+                case (2): {//ostani na mestu
+                    break;
+                }
+                case (3): {//levo
+                    x--;
+                    break;
+                }
+                case (4): {//desno
+                    x++;
+                    break;
+                }
+                case (5): {//gor
+                    y--;
+                    break;
+                }
+                case (6): {//dol
+                    y++;
+                    break;
+                }
+            }
+        }
+        izrisiLabirint(labirint);
+    }

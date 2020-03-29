@@ -1,4 +1,4 @@
-//package DomaceNaloge;
+package DomaceNaloge;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -39,7 +39,7 @@ public class DN05 {
             String branje = "";
             String [] labirint = datoteka.split("_|\\.");
             //String [] velikosti = labirint[3].split("\\.");
-            //char b = labirint[2].charAt(0); -> ne dela za dvomesstna števila
+            //char b = labirint[2].charAt(0); -> ne dela za dvomestna števila
             int sirina = Integer.parseInt(labirint[1]) * 2 - 1;
             int visina = Integer.parseInt(labirint[2]) * 2 - 1;
             int [][] st = new int[visina][sirina];
@@ -64,7 +64,7 @@ public class DN05 {
 
     //0-stena, 1-hodnik
     public static void izrisiLabirint(int[][] labirint) {
-        for (int i = 0; i <= labirint.length + 1; i++) {
+        for (int i = 0; i < labirint[1].length + 2; i++) {
             System.out.print("# ");
         }
 
@@ -72,7 +72,7 @@ public class DN05 {
         for (int i = 0; i < labirint.length; i++) {
             System.out.print("# ");
             for (int j = 0; j < labirint[i].length; j++) {
-                if (labirint[i][j] == 1) {sout
+                if (labirint[i][j] == 1) {
                     System.out.print("  ");
                 } else {
                     System.out.print("# ");
@@ -81,7 +81,7 @@ public class DN05 {
             System.out.println("# ");
         }
 
-        for (int i = 0; i <= labirint.length + 1; i++) {
+        for (int i = 0; i < labirint[1].length + 2; i++) {
             if (i == labirint.length) {
                 System.out.print("  ");
             }
@@ -125,6 +125,9 @@ public class DN05 {
             }
             if (labirint[i][j] == 0) {
                 reseno = false;
+            }
+            if (j <= labirint.length) {
+                return false;
             }
         }
         return reseno;

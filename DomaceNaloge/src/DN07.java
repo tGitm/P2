@@ -8,7 +8,7 @@ import java.util.Random;
  */
 
 public class DN07 {
-    /*
+
     static void narisi(int x, int y, int v, Color b){
         StdDraw.setScale(-100, 100);
 
@@ -44,5 +44,5 @@ public class DN07 {
 
         narisi(x,y,v,b);
 
-    }*/
+    }
 }

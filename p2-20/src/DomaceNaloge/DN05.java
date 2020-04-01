@@ -126,9 +126,10 @@ public class DN05 {
             if (labirint[i][j] == 0) {
                 reseno = false;
             }
-            if (j <= labirint.length) {
+            if (j < labirint.length) {
                 return false;
             }
+
         }
         return reseno;
     }

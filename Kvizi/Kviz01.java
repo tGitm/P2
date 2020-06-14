@@ -181,7 +181,8 @@ public class Kviz01 {
     private static int vsotaPrvih(int n) {
         int vsota = 0;
         int dobljenih = 0;
-        for (int i = 2;;i++) {
+        int i = 2;
+        while (i < n) {
             if (jePrastevilo(i)) {
                 vsota += i;
                 dobljenih++;
@@ -189,6 +190,7 @@ public class Kviz01 {
             if (dobljenih >= 100) {
                 break;
             }
+            i++;
         }
         return vsota;
     }

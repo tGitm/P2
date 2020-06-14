@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cf335cc-0112-4e67-94b1-69631cefac6c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Kvizi/Presek.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Kvizi/Rotiraj.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1a7DQnzJF4Zbf3qh3X6lnuQPkmL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/downloads/stdlib.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\documents\Faks\P2\viri" />
+      <recent name="D:\documents\Faks\P2\src\Vaje" />
+      <recent name="D:\documents\Faks\P2\src\Predavanja" />
+      <recent name="D:\documents\Faks\P2\src" />
+      <recent name="D:\documents\Faks\P2\src\DomaceNaloge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Naloga14">
+    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Izpit2020.Editor" />
+      <module name="P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Izpit2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Naloga14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Izpit2020.Naloga14" />
+      <module name="P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Izpit2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="naloga11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Izpit2020.naloga11" />
+      <module name="P2" />
+      <option name="PROGRAM_PARAMETERS" value="viri/cebela.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Izpit2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="naloga12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Izpit2020.naloga12" />
+      <module name="P2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Izpit2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="naloga13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Izpit2020.naloga13" />
+      <module name="P2" />
+      <option name="PROGRAM_PARAMETERS" value="Proggrammiranje mi mmii mii je jjje všeččč všeč" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Izpit2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.naloga11" />
+      <item itemvalue="Application.naloga12" />
+      <item itemvalue="Application.Editor" />
+      <item itemvalue="Application.naloga13" />
+      <item itemvalue="Application.Naloga14" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Naloga14" />
+        <item itemvalue="Application.naloga13" />
+        <item itemvalue="Application.naloga12" />
+        <item itemvalue="Application.Editor" />
+        <item itemvalue="Application.naloga11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cf335cc-0112-4e67-94b1-69631cefac6c" name="Default Changelist" comment="" />
+      <created>1586077724082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586077724082</updated>
+      <workItem from="1586077726347" duration="260000" />
+      <workItem from="1586328844681" duration="8538000" />
+      <workItem from="1587996443757" duration="11000" />
+      <workItem from="1588699134909" duration="1642000" />
+      <workItem from="1588743062386" duration="9902000" />
+      <workItem from="1588753506704" duration="5292000" />
+      <workItem from="1588769600369" duration="2177000" />
+      <workItem from="1588784596905" duration="4274000" />
+      <workItem from="1589226828698" duration="609000" />
+      <workItem from="1591118190386" duration="994000" />
+      <workItem from="1591201866859" duration="3642000" />
+      <workItem from="1591278463353" duration="3533000" />
+      <workItem from="1591336535300" duration="11276000" />
+      <workItem from="1591718648881" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1693" y="178" key="#Kviz02" timestamp="1588757954883">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1693" y="178" key="#Kviz02/0.0.2560.1040@0.0.2560.1040" timestamp="1588757954883" />
+    <state x="179" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591347701214">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="179" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591347701214" />
+    <state x="1725" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1591350295312">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1725" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1591350295312" />
+    <state x="370" y="304" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591278491248">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="370" y="304" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591278491248" />
+    <state x="359" y="239" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1591279970857">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="359" y="239" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591279970857" />
+    <state x="370" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591278857005">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="370" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591278857005" />
+    <state x="443" y="349" key="FileChooserDialogImpl" timestamp="1591278670407">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="443" y="349" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1591278670407" />
+    <state width="1234" height="284" key="GridCell.Tab.0.bottom" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.0.center" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.0.left" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.0.right" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.1.bottom" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.1.center" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.1.left" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state width="1234" height="284" key="GridCell.Tab.1.right" timestamp="1591352036382">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="284" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1591352036382" />
+    <state x="143" y="169" key="SettingsEditor" timestamp="1591278675505">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="143" y="169" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1591278675505" />
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591336725221">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1616" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1591336725221" />
+    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1591350315429">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1591350315429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kvizi/prastevilo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
